@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Klasemen Event Delta Force</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 16px;
+      background: #0f1419; color: #e6edf3;
+      font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .wrap { max-width: 520px; margin: 0 auto; }
+    h1 { font-size: 20px; margin: 8px 0 4px; text-align: center; letter-spacing: .5px; }
+    .sub { text-align: center; color: #8b98a5; font-size: 13px; margin-bottom: 4px; }
+    .cd { text-align: center; color: #F5B301; font-size: 13px; margin-bottom: 18px; }
+    .row {
+      display: flex; align-items: center; gap: 12px;
+      background: #18202a; border-radius: 12px;
+      padding: 12px; margin-bottom: 10px;
+    }
+    .row.zero { opacity: .55; }
+    .rank { width: 32px; text-align: center; font-size: 22px; font-weight: 700; color: #8b98a5; }
+    .info { flex: 1; min-width: 0; }
+    .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+    .name { font-weight: 600; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chg { font-size: 12px; color: #8b98a5; margin-left: 4px; }
+    .score { font-weight: 700; font-size: 15px; white-space: nowrap; }
+    .score small { font-weight: 400; color: #8b98a5; font-size: 11px; }
+    .track { height: 8px; background: #0f1419; border-radius: 99px; overflow: hidden; }
+    .fill { height: 100%; border-radius: 99px; }
+    .foot { text-align: center; color: #5b6773; font-size: 11px; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>🏆 KLASEMEN SEMENTARA<br>EVENT DELTA FORCE</h1>
+    <div class="sub">📅 Data s.d. 11/11/2026</div>
+    <div class="cd"></div>
+    
+    
+      <div class="row ">
+        <div class="rank" style="color:#F5B301">🥇</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">LSCS<span class="chg"></span></span>
+            <span class="score">25 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:100%;background:#F5B301"></div></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="rank" style="color:#C0C7D1">🥈</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">ICIKIWIR<span class="chg"></span></span>
+            <span class="score">13,5 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:54%;background:#C0C7D1"></div></div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="rank" style="color:#CD7F32">🥉</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">Tempe Mendoan<span class="chg"></span></span>
+            <span class="score">13 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:52%;background:#CD7F32"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >4</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">DAM<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >5</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">TPH<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >6</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">DANNATARAAA<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >7</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">CC<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >8</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">MBST<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >9</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">TNN<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >10</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">MAMBO MAMBO<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+      <div class="row zero">
+        <div class="rank" >11</div>
+        <div class="info">
+          <div class="top">
+            <span class="name">BUZZER 58<span class="chg"></span></span>
+            <span class="score">0 <small>jt ALLOY</small></span>
+          </div>
+          <div class="track"><div class="fill" style="width:0%;background:#4C8BF5"></div></div>
+        </div>
+      </div>
+    <div class="foot">Diperbarui 09/11/2026 13:56 WIB</div>
+  </div>
+</body>
+</html>
